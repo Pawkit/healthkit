@@ -4,7 +4,9 @@ module.exports = {
   },
   signin: function(req, res) {
 
-      res.render('signin');
+      res.render('signin', {
+        'username': req.user.username
+      });
 
   },
   form: function(req, res) {

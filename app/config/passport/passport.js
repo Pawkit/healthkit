@@ -37,7 +37,7 @@ passport.deserializeUser(function(id, done) {
     passport.use('local-signup', new LocalStrategy(
 
         {
-
+            // usernameField: 'username'
             usernameField: 'email',
 
             passwordField: 'password',
@@ -60,7 +60,7 @@ passport.deserializeUser(function(id, done) {
 
             User.findOne({
                 where: {
-                    email: email
+                    username: username
                 }
             }).then(function(user) {
 
@@ -84,10 +84,10 @@ passport.deserializeUser(function(id, done) {
                             email: email,
 
                             password: userPassword,
-
-                            firstname: req.body.firstname,
-
-                            lastname: req.body.lastname
+                            username: req.body.username,
+                            // username: req.body.firstname,
+                            //
+                            // lastname: req.body.lastname
 
                         };
 
@@ -120,7 +120,7 @@ passport.use('local-signin', new LocalStrategy(
     {
 
         // by default, local strategy uses username and password, we will override with email
- 
+
         usernameField: 'email',
 
         passwordField: 'password',

@@ -98,6 +98,6 @@ $(function() {
 
 });
 
-// attach image file
-$('input[type=file]').bootstrapFileInput();
-$('.file-inputs').bootstrapFileInput();
+// // attach image file
+// $('input[type=file]').bootstrapFileInput();
+// $('.file-inputs').bootstrapFileInput();
