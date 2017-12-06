@@ -1,0 +1,9 @@
+0000000000000000000000000000000000000000 f29eb8b8447013e4f8320fa1a4847a57f31b1e03 Ashley Crosswhite <ar.crosswhite@gmail.com> 1511326633 -0800	clone: from git@github.com:kchan902/healthkit.git
+f29eb8b8447013e4f8320fa1a4847a57f31b1e03 f29eb8b8447013e4f8320fa1a4847a57f31b1e03 Ashley Crosswhite <ar.crosswhite@gmail.com> 1511912297 -0800	checkout: moving from master to ashley_branch
+f29eb8b8447013e4f8320fa1a4847a57f31b1e03 d56d75fdd9787b520f0046e3bf33c93c47dc0075 Ashley Crosswhite <ar.crosswhite@gmail.com> 1511912491 -0800	commit: add gitignore and package json
+d56d75fdd9787b520f0046e3bf33c93c47dc0075 3f285957fcfaa81687931682a6e4b017f54ded27 Ashley Crosswhite <ar.crosswhite@gmail.com> 1511920636 -0800	commit: udpate json
+3f285957fcfaa81687931682a6e4b017f54ded27 e5011f46d54f28fd727d099970485c1727dc15e9 Ashley Crosswhite <ar.crosswhite@gmail.com> 1511931095 -0800	pull origin master: Fast-forward
+e5011f46d54f28fd727d099970485c1727dc15e9 dbc7501722b3839af1ba14a3db9a4a277b0356a1 Ashley Crosswhite <ar.crosswhite@gmail.com> 1512093077 -0800	commit: update a lot of things
+dbc7501722b3839af1ba14a3db9a4a277b0356a1 046168d2abb075c370dcdf22a30f13605af51742 Ashley Crosswhite <ar.crosswhite@gmail.com> 1512246819 -0800	commit: ashley copy
+046168d2abb075c370dcdf22a30f13605af51742 f29eb8b8447013e4f8320fa1a4847a57f31b1e03 Ashley Crosswhite <ar.crosswhite@gmail.com> 1512246858 -0800	checkout: moving from ashley_branch to master
+f29eb8b8447013e4f8320fa1a4847a57f31b1e03 928c7eb09492f5f1da3000b87aa1af2f5bb1b79f Ashley Crosswhite <ar.crosswhite@gmail.com> 1512247596 -0800	commit: add files
