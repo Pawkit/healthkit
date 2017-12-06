@@ -186,11 +186,11 @@ function addUsdaToTable(selected){
 
  tabl.append(
       '<tr>' + 
-          '<td>' + selected.name + '</td>' + 
-          '<td>' + "" + '</td>' + 
-          '<td>' + "" + '</td>' + 
-          '<td>' + "" + '</td>' +
-          '<td>' + "Added from USDA: " + selected.group + '</td>' +
+          '<td contentEditable>' + selected.name + '</td>' + 
+          '<td contentEditable>' + "" + '</td>' + 
+          '<td contentEditable>' + "" + '</td>' + 
+          '<td contentEditable>' + "" + '</td>' +
+          '<td contentEditable>' + "Added from USDA: " + selected.group + '</td>' +
       '</tr>'
    );
 };
